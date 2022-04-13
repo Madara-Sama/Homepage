@@ -181,6 +181,7 @@ input {
 
 .material-icons {
   color: #FFFFFF;
+  font-size: 36px;
 }
 
 .ux {
@@ -596,7 +597,7 @@ input {
   width: 113px;
   height: 36px;
   left: 1133px;
-  top: 3904px;
+  top: 3914px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -611,7 +612,7 @@ input {
   height: 6.59092903137207px;
   width: 15.782499313354492px;
   left: 126px;
-  top: 8.70062255859375px;
+  top: 1.700623px;
   border-radius: 0px;
   color: #2D9CDB;
 }
@@ -905,9 +906,9 @@ li {
 
 .overlay .closebtn {
   position: absolute;
-  top: 13px;
-  left: 337px;
-  font-size: 60px;
+  top: 19px;
+  left: 338px;
+  font-size: 30px;
 }
 
 @media screen and (max-height: 375px) {
@@ -916,17 +917,21 @@ li {
   }
   .overlay .closebtn {
     font-size: 30px;
-    top: 13px;
-    left: 337px;
+    top: 25px;
+    left: 338px;
   }
 }
 
 .hamburger {
   position: absolute;
-  top: 13px;
-  left: 337px;
+  top: 25px;
+  right: 17px;
   font-size: 30px;
   cursor: pointer;
+}
+
+.header > span {
+  color: #100E1D;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 300px) {
@@ -1491,6 +1496,7 @@ li {
     top: 1.700623px;
     border-radius: 0px;
     color: #2D9CDB;
+    font-size: 24px;
   }
   .team-caption {
     position: absolute;
