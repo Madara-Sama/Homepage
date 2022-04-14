@@ -88,4 +88,4 @@ $ npm start
 ## Contact
 
 
-- GitHub [@Madara-Sama](https://{https://github.com/Madara-Sama})
+- GitHub [Madara-Sama](https://github.com/Madara-Sama)
