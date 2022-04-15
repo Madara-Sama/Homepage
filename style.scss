@@ -1,7 +1,11 @@
-body{
-   max-width: 1440px;
-   max-height: 100%;
+.container{
+   box-sizing: border-box;
+   width: 1440px;
+   height: 5835px;
+   position: relative;
 }
+
+
 h1{
    width: 70px;
    height: 53px;
@@ -813,7 +817,7 @@ li{
  .overlay-content {
    position: relative;
    top: 25%;
-   width: 100%;
+   width: 375px;
    text-align: center;
    margin-top: 30px;
    font-family: Poppins;
@@ -839,7 +843,7 @@ li{
  }
  
  .overlay .closebtn {
-   position: absolute;
+   position: relative;
    top: 19px;
    // right: 17px;
    left: 338px;
