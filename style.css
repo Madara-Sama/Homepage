@@ -4,6 +4,7 @@
   width: 1440px;
   height: 5835px;
   position: relative;
+  margin: auto;
 }
 
 h1 {
@@ -867,7 +868,7 @@ li {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 900px) {
+@media only screen and (max-width: 1920px) and (min-width: 900px) {
   .overlay, .hamburger {
     display: none;
   }
@@ -916,7 +917,7 @@ li {
 .overlay .closebtn {
   position: relative;
   top: 19px;
-  right: 17px;
+  left: 338px;
   font-size: 30px;
 }
 
@@ -951,7 +952,7 @@ li {
     position: relative;
   }
   .overlay .closebtn {
-    position: absolute;
+    position: relative;
   }
   .hamburger {
     position: absolute;
