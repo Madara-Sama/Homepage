@@ -817,10 +817,10 @@ li{
  
  .overlay-content {
    position: relative;
-   top: 25%;
+   top: 2%;
    width: 375px;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 0px;
    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -846,8 +846,8 @@ li{
  .overlay .closebtn {
    position: relative;
    top: 19px;
-   // right: 17px;
-   left: 338px;
+   right: 17px;
+   // left: 337px;
    font-size: 30px;
  }
  
@@ -856,8 +856,8 @@ li{
    .overlay .closebtn {
    font-size: 30px;
    top: 25px;
-   // right: 17px;
-   left: 338px;
+   right: 17px;
+   // left: 337px;
    }
  }
  .hamburger{
@@ -873,13 +873,13 @@ li{
  @media only screen and (max-width:900px) and (min-width:300px) {
 
    .overlay {
-      position: fixed;
+      position: absolute;
    }
    .overlay-content {
       position: relative;
    }
    .overlay .closebtn {
-      position: relative;
+      position: absolute;
    }
    
    .hamburger{
